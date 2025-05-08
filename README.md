@@ -26,7 +26,9 @@ The system captures:
    git clone https://github.com/your-username/clinic-booking-system.git
    cd clinic-booking-system
 3. Open your MySQL client and import the clinic_system.sql file:
-   SOURCE clinic_system.sql;
+    ```bash
+    SOURCE clinic_system.sql;
 4. Confirm tables were created:
-   SHOW TABLES;
+    ```bash
+    SHOW TABLES;
 5. You can now insert test data and run queries on the system.
